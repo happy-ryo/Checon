@@ -24,6 +24,13 @@
 		4998650515BF305000803E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998650415BF305000803E05 /* StoreKit.framework */; };
 		743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743D7B6C157DA60100084B67 /* CoreGraphics.framework */; };
 		82CDDD7246B24B67589BC1BF /* StoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */; };
+		89B2F8391866291F00C32956 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8321866285B00C32956 /* XCTest.framework */; };
+		89B2F83A1866291F00C32956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07313A1D52D009C3FCF /* Foundation.framework */; };
+		89B2F83B1866291F00C32956 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07113A1D52D009C3FCF /* UIKit.framework */; };
+		89B2F8411866291F00C32956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89B2F83F1866291F00C32956 /* InfoPlist.strings */; };
+		89B2F8431866291F00C32956 /* checonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2F8421866291F00C32956 /* checonTests.m */; };
+		89B2F84C1866293200C32956 /* libKiwi-XCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F82D186627FB00C32956 /* libKiwi-XCTest.a */; };
+		89B2F84D186629AA00C32956 /* checon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07913A1D52D009C3FCF /* checon-Info.plist */; };
 		89E38F321865DC5900C8B1B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E38F311865DC5900C8B1B5 /* Images.xcassets */; };
 		89E38F331865E2E200C8B1B5 /* checon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07913A1D52D009C3FCF /* checon-Info.plist */; };
 		C4C51B571613CE0800959FDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B541613CE0800959FDC /* Default.png */; };
@@ -31,6 +38,58 @@
 		C4C51B591613CE0800959FDC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B561613CE0800959FDC /* Default@2x.png */; };
 		DD952FCB16E7F5CF00470144 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E18B1E1624CB5700B17A67 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89B2F826186627FB00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015B9F11583A77002E9A98;
+			remoteInfo = Kiwi;
+		};
+		89B2F828186627FB00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C83C7157263B300F160D5;
+			remoteInfo = "Kiwi-OSX";
+		};
+		89B2F82A186627FB00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5015C9E11584017002E9A98;
+			remoteInfo = KiwiTests;
+		};
+		89B2F82C186627FB00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA084E7317E3838100592D5A;
+			remoteInfo = "Kiwi-XCTest";
+		};
+		89B2F82E186627FB00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA084D3E17E3804200592D5A;
+			remoteInfo = KiwiXCTests;
+		};
+		89B2F8451866291F00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09ABC06413A1D52D009C3FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09ABC06C13A1D52D009C3FCF;
+			remoteInfo = checon;
+		};
+		89B2F84A1866292A00C32956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DA084D5E17E3838100592D5A;
+			remoteInfo = "Kiwi-XCTest";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		09144A7213C2997E00388B00 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Entitlements.plist; sourceTree = "<group>"; };
@@ -58,6 +117,13 @@
 		6372FF571613CC47002132AF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		743D7B6C157DA60100084B67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryBoard.storyboard; sourceTree = "<group>"; };
+		89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
+		89B2F8321866285B00C32956 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		89B2F8381866291F00C32956 /* checonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B2F83E1866291F00C32956 /* checonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "checonTests-Info.plist"; sourceTree = "<group>"; };
+		89B2F8401866291F00C32956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		89B2F8421866291F00C32956 /* checonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checonTests.m; sourceTree = "<group>"; };
+		89B2F8441866291F00C32956 /* checonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checonTests-Prefix.pch"; sourceTree = "<group>"; };
 		89E38F311865DC5900C8B1B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97E18B1E1624CB5700B17A67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C4C51B541613CE0800959FDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -86,6 +152,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89B2F8351866291F00C32956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B2F84C1866293200C32956 /* libKiwi-XCTest.a in Frameworks */,
+				89B2F8391866291F00C32956 /* XCTest.framework in Frameworks */,
+				89B2F83B1866291F00C32956 /* UIKit.framework in Frameworks */,
+				89B2F83A1866291F00C32956 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				09ABC07713A1D52D009C3FCF /* checon */,
+				89B2F83C1866291F00C32956 /* checonTests */,
 				09ABC07013A1D52D009C3FCF /* Frameworks */,
 				09ABC06E13A1D52D009C3FCF /* Products */,
 			);
@@ -102,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				09ABC06D13A1D52D009C3FCF /* checon.app */,
+				89B2F8381866291F00C32956 /* checonTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +188,8 @@
 		09ABC07013A1D52D009C3FCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B2F8321866285B00C32956 /* XCTest.framework */,
+				89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */,
 				6372FF571613CC47002132AF /* AdSupport.framework */,
 				6372FF551613CC42002132AF /* Social.framework */,
 				6372FF521613CC3C002132AF /* Accounts.framework */,
@@ -157,6 +238,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		89B2F81E186627FB00C32956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B2F827186627FB00C32956 /* libKiwi.a */,
+				89B2F829186627FB00C32956 /* libKiwi-OSX.a */,
+				89B2F82B186627FB00C32956 /* KiwiTests.octest */,
+				89B2F82D186627FB00C32956 /* libKiwi-XCTest.a */,
+				89B2F82F186627FB00C32956 /* KiwiXCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89B2F83C1866291F00C32956 /* checonTests */ = {
+			isa = PBXGroup;
+			children = (
+				89B2F8421866291F00C32956 /* checonTests.m */,
+				89B2F83D1866291F00C32956 /* Supporting Files */,
+			);
+			path = checonTests;
+			sourceTree = "<group>";
+		};
+		89B2F83D1866291F00C32956 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B2F83E1866291F00C32956 /* checonTests-Info.plist */,
+				89B2F83F1866291F00C32956 /* InfoPlist.strings */,
+				89B2F8441866291F00C32956 /* checonTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -177,6 +289,25 @@
 			productReference = 09ABC06D13A1D52D009C3FCF /* checon.app */;
 			productType = "com.apple.product-type.application";
 		};
+		89B2F8371866291F00C32956 /* checonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B2F8471866291F00C32956 /* Build configuration list for PBXNativeTarget "checonTests" */;
+			buildPhases = (
+				89B2F8341866291F00C32956 /* Sources */,
+				89B2F8351866291F00C32956 /* Frameworks */,
+				89B2F8361866291F00C32956 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89B2F84B1866292A00C32956 /* PBXTargetDependency */,
+				89B2F8461866291F00C32956 /* PBXTargetDependency */,
+			);
+			name = checonTests;
+			productName = checonTests;
+			productReference = 89B2F8381866291F00C32956 /* checonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +318,9 @@
 				TargetAttributes = {
 					09ABC06C13A1D52D009C3FCF = {
 						DevelopmentTeam = X9AMR5X2G8;
+					};
+					89B2F8371866291F00C32956 = {
+						TestTargetID = 09ABC06C13A1D52D009C3FCF;
 					};
 				};
 			};
@@ -200,12 +334,57 @@
 			mainGroup = 09ABC06213A1D52D009C3FCF;
 			productRefGroup = 09ABC06E13A1D52D009C3FCF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 89B2F81E186627FB00C32956 /* Products */;
+					ProjectRef = 89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				09ABC06C13A1D52D009C3FCF /* checon */,
+				89B2F8371866291F00C32956 /* checonTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		89B2F827186627FB00C32956 /* libKiwi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKiwi.a;
+			remoteRef = 89B2F826186627FB00C32956 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89B2F829186627FB00C32956 /* libKiwi-OSX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKiwi-OSX.a";
+			remoteRef = 89B2F828186627FB00C32956 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89B2F82B186627FB00C32956 /* KiwiTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiTests.octest;
+			remoteRef = 89B2F82A186627FB00C32956 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89B2F82D186627FB00C32956 /* libKiwi-XCTest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libKiwi-XCTest.a";
+			remoteRef = 89B2F82C186627FB00C32956 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		89B2F82F186627FB00C32956 /* KiwiXCTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KiwiXCTests.xctest;
+			remoteRef = 89B2F82E186627FB00C32956 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		09ABC06B13A1D52D009C3FCF /* Resources */ = {
@@ -223,6 +402,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89B2F8361866291F00C32956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B2F84D186629AA00C32956 /* checon-Info.plist in Resources */,
+				89B2F8411866291F00C32956 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -235,13 +423,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89B2F8341866291F00C32956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B2F8431866291F00C32956 /* checonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89B2F8461866291F00C32956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09ABC06C13A1D52D009C3FCF /* checon */;
+			targetProxy = 89B2F8451866291F00C32956 /* PBXContainerItemProxy */;
+		};
+		89B2F84B1866292A00C32956 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kiwi-XCTest";
+			targetProxy = 89B2F84A1866292A00C32956 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		09ABC07A13A1D52D009C3FCF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				09ABC07B13A1D52D009C3FCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		89B2F83F1866291F00C32956 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B2F8401866291F00C32956 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -348,6 +565,83 @@
 			};
 			name = Release;
 		};
+		89B2F8481866291F00C32956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/checon.app/checon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "checonTests/checonTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "checonTests/checonTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "Kiwi/**";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		89B2F8491866291F00C32956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/checon.app/checon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "checonTests/checonTests-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				INFOPLIST_FILE = "checonTests/checonTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				USER_HEADER_SEARCH_PATHS = "Kiwi/**";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -368,6 +662,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		89B2F8471866291F00C32956 /* Build configuration list for PBXNativeTarget "checonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B2F8481866291F00C32956 /* Debug */,
+				89B2F8491866291F00C32956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
