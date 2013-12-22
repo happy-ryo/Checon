@@ -31,6 +31,7 @@
 		89B2F8431866291F00C32956 /* checonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2F8421866291F00C32956 /* checonTests.m */; };
 		89B2F84C1866293200C32956 /* libKiwi-XCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F82D186627FB00C32956 /* libKiwi-XCTest.a */; };
 		89B2F84D186629AA00C32956 /* checon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07913A1D52D009C3FCF /* checon-Info.plist */; };
+		89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8541866C18900C32956 /* FacebookSDK.framework */; };
 		89E38F321865DC5900C8B1B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E38F311865DC5900C8B1B5 /* Images.xcassets */; };
 		C4C51B571613CE0800959FDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B541613CE0800959FDC /* Default.png */; };
 		C4C51B581613CE0800959FDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B551613CE0800959FDC /* Default-568h@2x.png */; };
@@ -123,6 +124,7 @@
 		89B2F8401866291F00C32956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89B2F8421866291F00C32956 /* checonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checonTests.m; sourceTree = "<group>"; };
 		89B2F8441866291F00C32956 /* checonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checonTests-Prefix.pch"; sourceTree = "<group>"; };
+		89B2F8541866C18900C32956 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		89E38F311865DC5900C8B1B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97E18B1E1624CB5700B17A67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C4C51B541613CE0800959FDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */,
 				DD952FCB16E7F5CF00470144 /* CoreLocation.framework in Frameworks */,
 				4998650515BF305000803E05 /* StoreKit.framework in Frameworks */,
 				743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */,
@@ -187,6 +190,7 @@
 		09ABC07013A1D52D009C3FCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B2F8541866C18900C32956 /* FacebookSDK.framework */,
 				89B2F8321866285B00C32956 /* XCTest.framework */,
 				89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */,
 				6372FF571613CC47002132AF /* AdSupport.framework */,
@@ -528,7 +532,8 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					/Users/happy_ryo/Documents/FacebookSDK,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -551,7 +556,8 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					/Users/happy_ryo/Documents/FacebookSDK,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "checon/checon-Prefix.pch";
