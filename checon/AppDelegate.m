@@ -1,5 +1,6 @@
 #import <Parse/Parse.h>
 #import <Parse/PFFacebookUtils.h>
+#import <FacebookSDK/FacebookSDK.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -19,15 +20,15 @@
     // ****************************************************************************
 
     [PFUser enableAutomaticUser];
-    
+
     PFACL *defaultACL = [PFACL ACL];
 
     // If you would like all objects to be private by default, remove this line.
     [defaultACL setPublicReadAccess:YES];
-    
+
     [PFACL setDefaultACL:defaultACL withAccessForCurrentUser:YES];
     // Override point for customization after application launch.
-     
+
     [self.window makeKeyAndVisible];
 
     if (application.applicationState != UIApplicationStateBackground) {
@@ -42,23 +43,21 @@
             [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
         }
     }
-    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
-                                                    UIRemoteNotificationTypeAlert|
-                                                    UIRemoteNotificationTypeSound];
+    [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge |
+            UIRemoteNotificationTypeAlert |
+            UIRemoteNotificationTypeSound];
     return YES;
 }
 
-/*
 ///////////////////////////////////////////////////////////
 // Uncomment this method if you are using Facebook
 ///////////////////////////////////////////////////////////
- 
+
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
-    sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    return [PFFacebookUtils handleOpenURL:url];
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
-*/
- 
+
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken {
     [PFPush storeDeviceToken:newDeviceToken];
     [PFPush subscribeToChannelInBackground:@"" target:self selector:@selector(subscribeFinished:error:)];
@@ -70,7 +69,7 @@
     } else {
         // show some alert or otherwise handle the failure to register.
         NSLog(@"application:didFailToRegisterForRemoteNotificationsWithError: %@", error);
-	}
+    }
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
