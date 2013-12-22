@@ -1,4 +1,5 @@
 #import <Parse/Parse.h>
+#import <Parse/PFFacebookUtils.h>
 #import "AppDelegate.h"
 
 @implementation AppDelegate
@@ -14,7 +15,7 @@
     //
     // If you are using Facebook, uncomment and add your FacebookAppID to your bundle's plist as
     // described here: https://developers.facebook.com/docs/getting-started/facebook-sdk-for-ios/
-    // [PFFacebookUtils initializeFacebook];
+    [PFFacebookUtils initializeFacebook];
     // ****************************************************************************
 
     [PFUser enableAutomaticUser];
