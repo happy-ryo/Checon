@@ -23,12 +23,16 @@
 		2FCDD6B014A573F500295AAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDD6AF14A573F500295AAC /* QuartzCore.framework */; };
 		4998650515BF305000803E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998650415BF305000803E05 /* StoreKit.framework */; };
 		743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743D7B6C157DA60100084B67 /* CoreGraphics.framework */; };
+		82CDD0472D20790AA2BE584B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDB92E3BA2A38C776E0E5 /* RootViewController.m */; };
+		82CDDA652CEC09DAF5A77E81 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDB92E3BA2A38C776E0E5 /* RootViewController.m */; };
+		82CDDC80166ABC2E0BA93841 /* FacebookPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */; };
 		82CDDD7246B24B67589BC1BF /* StoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */; };
+		82CDDF1B6C5FC7E12B70B5A0 /* FacebookPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */; };
+		82CDDFD7E2D99EE3BB83F2C3 /* FacebookPermissionsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDDD71DF03FB962582DCD /* FacebookPermissionsSpec.m */; };
 		89B2F8391866291F00C32956 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8321866285B00C32956 /* XCTest.framework */; };
 		89B2F83A1866291F00C32956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07313A1D52D009C3FCF /* Foundation.framework */; };
 		89B2F83B1866291F00C32956 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ABC07113A1D52D009C3FCF /* UIKit.framework */; };
 		89B2F8411866291F00C32956 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89B2F83F1866291F00C32956 /* InfoPlist.strings */; };
-		89B2F8431866291F00C32956 /* checonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2F8421866291F00C32956 /* checonTests.m */; };
 		89B2F84C1866293200C32956 /* libKiwi-XCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F82D186627FB00C32956 /* libKiwi-XCTest.a */; };
 		89B2F84D186629AA00C32956 /* checon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07913A1D52D009C3FCF /* checon-Info.plist */; };
 		89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8541866C18900C32956 /* FacebookSDK.framework */; };
@@ -117,12 +121,16 @@
 		6372FF571613CC47002132AF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		743D7B6C157DA60100084B67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryBoard.storyboard; sourceTree = "<group>"; };
+		82CDD0B67AED6C065E0EC62B /* FacebookPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookPermissions.h; sourceTree = "<group>"; };
+		82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookPermissions.m; sourceTree = "<group>"; };
+		82CDDB92E3BA2A38C776E0E5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		82CDDDD71DF03FB962582DCD /* FacebookPermissionsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookPermissionsSpec.m; sourceTree = "<group>"; };
+		82CDDFAF116F153D6B3B8A93 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
 		89B2F8321866285B00C32956 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		89B2F8381866291F00C32956 /* checonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B2F83E1866291F00C32956 /* checonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "checonTests-Info.plist"; sourceTree = "<group>"; };
 		89B2F8401866291F00C32956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		89B2F8421866291F00C32956 /* checonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = checonTests.m; sourceTree = "<group>"; };
 		89B2F8441866291F00C32956 /* checonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checonTests-Prefix.pch"; sourceTree = "<group>"; };
 		89B2F8541866C18900C32956 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		89E38F311865DC5900C8B1B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -222,6 +230,8 @@
 				09ABC08113A1D52D009C3FCF /* AppDelegate.m */,
 				09ABC07813A1D52D009C3FCF /* Supporting Files */,
 				82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */,
+				82CDD5935B8BC19E1E2A9E54 /* VIEWS */,
+				82CDDFD06787A3E1A43A3F41 /* MODELS */,
 			);
 			path = checon;
 			sourceTree = "<group>";
@@ -241,6 +251,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		82CDD5935B8BC19E1E2A9E54 /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				82CDDB92E3BA2A38C776E0E5 /* RootViewController.m */,
+				82CDDFAF116F153D6B3B8A93 /* RootViewController.h */,
+			);
+			path = VIEWS;
+			sourceTree = "<group>";
+		};
+		82CDDAA27B2F9EAFC8743703 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				82CDDDD71DF03FB962582DCD /* FacebookPermissionsSpec.m */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
+		82CDDFD06787A3E1A43A3F41 /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */,
+				82CDD0B67AED6C065E0EC62B /* FacebookPermissions.h */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
 		89B2F81E186627FB00C32956 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,8 +292,8 @@
 		89B2F83C1866291F00C32956 /* checonTests */ = {
 			isa = PBXGroup;
 			children = (
-				89B2F8421866291F00C32956 /* checonTests.m */,
 				89B2F83D1866291F00C32956 /* Supporting Files */,
+				82CDDAA27B2F9EAFC8743703 /* MODELS */,
 			);
 			path = checonTests;
 			sourceTree = "<group>";
@@ -422,6 +458,8 @@
 			files = (
 				09ABC07F13A1D52D009C3FCF /* main.m in Sources */,
 				09ABC08213A1D52D009C3FCF /* AppDelegate.m in Sources */,
+				82CDD0472D20790AA2BE584B /* RootViewController.m in Sources */,
+				82CDDC80166ABC2E0BA93841 /* FacebookPermissions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +467,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B2F8431866291F00C32956 /* checonTests.m in Sources */,
+				82CDDA652CEC09DAF5A77E81 /* RootViewController.m in Sources */,
+				82CDDF1B6C5FC7E12B70B5A0 /* FacebookPermissions.m in Sources */,
+				82CDDFD7E2D99EE3BB83F2C3 /* FacebookPermissionsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
