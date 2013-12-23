@@ -37,6 +37,7 @@
 		89B2F84C1866293200C32956 /* libKiwi-XCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F82D186627FB00C32956 /* libKiwi-XCTest.a */; };
 		89B2F84D186629AA00C32956 /* checon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07913A1D52D009C3FCF /* checon-Info.plist */; };
 		89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8541866C18900C32956 /* FacebookSDK.framework */; };
+		89B2F8B11868879500C32956 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8B01868879500C32956 /* libEstimoteSDK.a */; };
 		89E38F321865DC5900C8B1B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E38F311865DC5900C8B1B5 /* Images.xcassets */; };
 		C4C51B571613CE0800959FDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B541613CE0800959FDC /* Default.png */; };
 		C4C51B581613CE0800959FDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B551613CE0800959FDC /* Default-568h@2x.png */; };
@@ -136,6 +137,7 @@
 		89B2F8401866291F00C32956 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		89B2F8441866291F00C32956 /* checonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checonTests-Prefix.pch"; sourceTree = "<group>"; };
 		89B2F8541866C18900C32956 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		89B2F8B01868879500C32956 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = Estimote/EstimoteSDK/libEstimoteSDK.a; sourceTree = "<group>"; };
 		89E38F311865DC5900C8B1B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97E18B1E1624CB5700B17A67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C4C51B541613CE0800959FDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B2F8B11868879500C32956 /* libEstimoteSDK.a in Frameworks */,
 				89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */,
 				DD952FCB16E7F5CF00470144 /* CoreLocation.framework in Frameworks */,
 				4998650515BF305000803E05 /* StoreKit.framework in Frameworks */,
@@ -201,6 +204,7 @@
 		09ABC07013A1D52D009C3FCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B2F8B01868879500C32956 /* libEstimoteSDK.a */,
 				89B2F8541866C18900C32956 /* FacebookSDK.framework */,
 				89B2F8321866285B00C32956 /* XCTest.framework */,
 				89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */,
@@ -586,7 +590,12 @@
 				GCC_PREFIX_HEADER = "checon/checon-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "checon/checon-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Estimote/EstimoteSDK",
+				);
 				PRODUCT_NAME = checon;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Estimote/EstimoteSDK/Headers";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -609,7 +618,12 @@
 				GCC_PREFIX_HEADER = "checon/checon-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "checon/checon-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Estimote/EstimoteSDK",
+				);
 				PRODUCT_NAME = checon;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Estimote/EstimoteSDK/Headers";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
