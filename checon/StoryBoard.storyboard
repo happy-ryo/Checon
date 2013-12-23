@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="650" y="-708"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="h2Y-ai-Mal">
             <objects>
-                <viewController id="uPb-zq-yaK" sceneMemberID="viewController">
+                <viewController id="uPb-zq-yaK" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h68-Iq-Ru1"/>
                         <viewControllerLayoutGuide type="bottom" id="4up-eJ-cEd"/>
@@ -125,6 +125,9 @@
                                 <state key="normal" title="Facebook Log-In">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fbLogin" destination="uPb-zq-yaK" eventType="touchUpInside" id="Zhn-t9-zJM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Checon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhL-Di-BcF">
                                 <rect key="frame" x="58" y="247" width="205" height="73"/>

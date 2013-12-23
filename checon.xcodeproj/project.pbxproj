@@ -24,6 +24,7 @@
 		4998650515BF305000803E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998650415BF305000803E05 /* StoreKit.framework */; };
 		743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743D7B6C157DA60100084B67 /* CoreGraphics.framework */; };
 		82CDD0472D20790AA2BE584B /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDB92E3BA2A38C776E0E5 /* RootTableViewController.m */; };
+		82CDD857803815BE372853CC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDE3F871487D46FFE111C /* LoginViewController.m */; };
 		82CDDA652CEC09DAF5A77E81 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDB92E3BA2A38C776E0E5 /* RootTableViewController.m */; };
 		82CDDC80166ABC2E0BA93841 /* FacebookPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */; };
 		82CDDD7246B24B67589BC1BF /* StoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */; };
@@ -123,8 +124,10 @@
 		82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryBoard.storyboard; sourceTree = "<group>"; };
 		82CDD0B67AED6C065E0EC62B /* FacebookPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookPermissions.h; sourceTree = "<group>"; };
 		82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookPermissions.m; sourceTree = "<group>"; };
+		82CDDB1984960F1E20A332DF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		82CDDB92E3BA2A38C776E0E5 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		82CDDDD71DF03FB962582DCD /* FacebookPermissionsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookPermissionsSpec.m; sourceTree = "<group>"; };
+		82CDDE3F871487D46FFE111C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		82CDDFAF116F153D6B3B8A93 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
 		89B2F81D186627FB00C32956 /* Kiwi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kiwi.xcodeproj; path = Kiwi/Kiwi.xcodeproj; sourceTree = "<group>"; };
 		89B2F8321866285B00C32956 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -256,6 +259,8 @@
 			children = (
 				82CDDB92E3BA2A38C776E0E5 /* RootTableViewController.m */,
 				82CDDFAF116F153D6B3B8A93 /* RootTableViewController.h */,
+				82CDDE3F871487D46FFE111C /* LoginViewController.m */,
+				82CDDB1984960F1E20A332DF /* LoginViewController.h */,
 			);
 			path = VIEWS;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 				09ABC08213A1D52D009C3FCF /* AppDelegate.m in Sources */,
 				82CDD0472D20790AA2BE584B /* RootTableViewController.m in Sources */,
 				82CDDC80166ABC2E0BA93841 /* FacebookPermissions.m in Sources */,
+				82CDD857803815BE372853CC /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
