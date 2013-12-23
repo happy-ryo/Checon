@@ -7,12 +7,16 @@
 //
 
 #import "BluetoothListTableViewController.h"
+#import "EstimoteUtils.h"
 
 @interface BluetoothListTableViewController ()
 
 @end
 
-@implementation BluetoothListTableViewController
+@implementation BluetoothListTableViewController {
+
+    EstimoteUtils *_estimoteUtils;
+}
 
 - (id)initWithStyle:(UITableViewStyle)style {
     self = [super initWithStyle:style];
@@ -24,7 +28,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    _estimoteUtils = [[EstimoteUtils alloc] init];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
 

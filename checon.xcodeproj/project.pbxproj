@@ -24,6 +24,7 @@
 		4998650515BF305000803E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998650415BF305000803E05 /* StoreKit.framework */; };
 		743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743D7B6C157DA60100084B67 /* CoreGraphics.framework */; };
 		82CDD0472D20790AA2BE584B /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDB92E3BA2A38C776E0E5 /* RootTableViewController.m */; };
+		82CDD0DB545617E7FE7A6706 /* EstimoteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDD8E6093048911296EF2A /* EstimoteUtils.m */; };
 		82CDD857803815BE372853CC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDE3F871487D46FFE111C /* LoginViewController.m */; };
 		82CDDA652CEC09DAF5A77E81 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDB92E3BA2A38C776E0E5 /* RootTableViewController.m */; };
 		82CDDB4395D3253C814F3400 /* BluetoothListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CDDAA06F97C0C45C2D61FE /* BluetoothListTableViewController.m */; };
@@ -39,6 +40,7 @@
 		89B2F84D186629AA00C32956 /* checon-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC07913A1D52D009C3FCF /* checon-Info.plist */; };
 		89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8541866C18900C32956 /* FacebookSDK.framework */; };
 		89B2F8B11868879500C32956 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8B01868879500C32956 /* libEstimoteSDK.a */; };
+		89B2F8BA18688FEE00C32956 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2F8B918688FEE00C32956 /* CoreBluetooth.framework */; };
 		89E38F321865DC5900C8B1B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E38F311865DC5900C8B1B5 /* Images.xcassets */; };
 		C4C51B571613CE0800959FDC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B541613CE0800959FDC /* Default.png */; };
 		C4C51B581613CE0800959FDC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C51B551613CE0800959FDC /* Default-568h@2x.png */; };
@@ -126,6 +128,8 @@
 		82CDD0AF082565FDF4BB9AFB /* StoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryBoard.storyboard; sourceTree = "<group>"; };
 		82CDD0B67AED6C065E0EC62B /* FacebookPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookPermissions.h; sourceTree = "<group>"; };
 		82CDD1A186FD7E9033C1D0C5 /* BluetoothListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothListTableViewController.h; sourceTree = "<group>"; };
+		82CDD8E6093048911296EF2A /* EstimoteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EstimoteUtils.m; sourceTree = "<group>"; };
+		82CDD914E0BA0B1083DECE0E /* EstimoteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EstimoteUtils.h; sourceTree = "<group>"; };
 		82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookPermissions.m; sourceTree = "<group>"; };
 		82CDDAA06F97C0C45C2D61FE /* BluetoothListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothListTableViewController.m; sourceTree = "<group>"; };
 		82CDDB1984960F1E20A332DF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 		89B2F8441866291F00C32956 /* checonTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "checonTests-Prefix.pch"; sourceTree = "<group>"; };
 		89B2F8541866C18900C32956 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		89B2F8B01868879500C32956 /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = Estimote/EstimoteSDK/libEstimoteSDK.a; sourceTree = "<group>"; };
+		89B2F8B918688FEE00C32956 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		89E38F311865DC5900C8B1B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97E18B1E1624CB5700B17A67 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C4C51B541613CE0800959FDC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -153,9 +158,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD952FCB16E7F5CF00470144 /* CoreLocation.framework in Frameworks */,
+				89B2F8BA18688FEE00C32956 /* CoreBluetooth.framework in Frameworks */,
 				89B2F8B11868879500C32956 /* libEstimoteSDK.a in Frameworks */,
 				89B2F8551866C18900C32956 /* FacebookSDK.framework in Frameworks */,
-				DD952FCB16E7F5CF00470144 /* CoreLocation.framework in Frameworks */,
 				4998650515BF305000803E05 /* StoreKit.framework in Frameworks */,
 				743D7B6D157DA60100084B67 /* CoreGraphics.framework in Frameworks */,
 				2FCDD6B014A573F500295AAC /* QuartzCore.framework in Frameworks */,
@@ -207,6 +213,7 @@
 		09ABC07013A1D52D009C3FCF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B2F8B918688FEE00C32956 /* CoreBluetooth.framework */,
 				89B2F8B01868879500C32956 /* libEstimoteSDK.a */,
 				89B2F8541866C18900C32956 /* FacebookSDK.framework */,
 				89B2F8321866285B00C32956 /* XCTest.framework */,
@@ -287,6 +294,8 @@
 			children = (
 				82CDDA890CE2A8A0BC3CFCC3 /* FacebookPermissions.m */,
 				82CDD0B67AED6C065E0EC62B /* FacebookPermissions.h */,
+				82CDD8E6093048911296EF2A /* EstimoteUtils.m */,
+				82CDD914E0BA0B1083DECE0E /* EstimoteUtils.h */,
 			);
 			path = MODELS;
 			sourceTree = "<group>";
@@ -476,6 +485,7 @@
 				82CDDC80166ABC2E0BA93841 /* FacebookPermissions.m in Sources */,
 				82CDD857803815BE372853CC /* LoginViewController.m in Sources */,
 				82CDDB4395D3253C814F3400 /* BluetoothListTableViewController.m in Sources */,
+				82CDD0DB545617E7FE7A6706 /* EstimoteUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

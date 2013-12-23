@@ -8,6 +8,8 @@
 
 
 
-@interface BluetoothListTableViewController : UITableViewController
+#import "RootTableViewController.h"
+
+@interface BluetoothListTableViewController : RootTableViewController
 
 @end
